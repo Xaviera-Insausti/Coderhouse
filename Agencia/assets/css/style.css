@@ -1,0 +1,368 @@
+body{
+	color: #808080;
+	font-size: 14px;
+	position: relative;
+}
+
+
+
+/*---Nav---*/
+.navbar{
+	background-color: black;
+	padding-top: 10px;
+}
+
+.navbar-brand{
+	color: #fed136;
+}
+
+.navbar-brand:visited{
+	color: #fed136;
+}
+
+.navbar-brand:hover{
+	color: #fed136;
+}
+
+.menu-boton{
+	background-color: #fed136;
+	color: white;
+	font-weight: bold;
+}
+
+#menu-lista a{
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 0px;
+}
+
+#menu-lista a:hover{
+	color: #fed136;
+	background-color: black;
+}
+
+.tell-me:visited{
+	color: white;
+}
+
+
+
+
+/*---Header---*/
+header{
+	height: 370px;
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.header{
+	padding-top: 70px;
+}
+
+.header p{
+	font-size: 26px;
+	font-style: italic;
+}
+
+h1{
+	font-size: 50px;
+	padding: 10px 20px 30px 20px;
+	color: white;
+	font-weight: bolder;
+}
+
+.tell-me{
+	background-color: #fed136;
+	padding: 20px 28px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	border-radius: 5px;
+}
+
+.tell-me:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*---Services---*/
+
+.serv{
+	margin: 15px 0px;
+}
+
+.iconos{
+	color: white;
+	background-color: #fed136;
+	height:	90px;
+	width:	90px;
+	border-radius: 50px;
+	display: inline-block;
+	padding-top: 15px;
+}
+
+
+/*---Portfolio---*/
+
+.box-port{
+	margin: 15px 0px;
+	max-width: 400px;
+}
+
+.box-port a:hover{
+	<i class="fa fa-plus" aria-hidden="true"></i>
+}
+
+.text-port{
+	background-color: white;
+	padding: 30px; 
+	text-align: center;
+}
+
+h4{
+	margin: 0px;
+}
+
+
+
+/*---About---*/
+
+.img-about{
+	border-radius: 50%;
+	border: 6px solid #F0F0F0;
+	width: 80px;
+}
+
+.text-about{
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+h5{
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+
+
+
+/*---Team---*/
+
+.box-team{
+	margin-bottom: 50px;
+}
+
+.box-team i{
+	background-color: black;
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+li{
+	display: inline;
+	margin: 10px;
+
+}
+
+.img-team{
+	border-radius: 50%;
+	border: 10px solid white;
+	max-width: 220px;
+
+}
+
+h6{
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.com-team{
+	padding:;
+	font-size: 16px; 
+}
+
+
+/*---Clients---*/
+
+.clients div{
+	margin: 40px 0px;
+}
+
+
+/*---Contact---*/
+
+#contact{
+	background-color: black;
+}
+
+#contact h2{
+	color: white;
+	padding-top: 30px;
+}
+
+form{
+	margin: 30px;
+}
+
+.datos .form-control{
+	height: 70px;
+}
+
+.form-group{
+	margin: 20px 0px;
+}
+
+.send-msg{
+	background-color: #fed136;
+	padding: 20px 28px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	border-radius: 5px;
+	border: 0px;
+}
+
+
+
+/*---Comunes---*/
+
+h2, h3, h4, h5, h6{
+	color: black;
+	font-weight: bold;
+}
+
+#portfolio, #team{
+	background-color: #F0F0F0;
+}
+
+a, a:hover, a:link{
+	text-decoration: none;
+}
+
+
+/*Titulos Sections*/
+h2{
+	font-weight: bold;
+	font-size: 44px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.titulo-sect{
+	padding: 80px 0px;
+}
+
+.titulo-sect p{
+	font-size: 16px;
+}
+
+
+
+
+/* Color gris no titulos
+	color: #808080;
+	padding: 0px 40px;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----768px y más----*/
+@media (min-width: 768px){
+
+header, section, aside{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+
+.navbar{
+	/*background-color: transparent;*/
+	height: 70px;
+}
+
+.navbar-header{
+	padding: 0px;
+}
+
+#menu-lista{
+	padding-top: 5px;
+	text-align: right; 
+}
+
+#menu-lista a:hover{
+	background-color: transparent;
+}
+
+
+
+
+header{
+	height: 800px;
+	padding-top: 20px;
+}
+
+.header p{
+	font-size: 40px;
+}
+
+h1{
+	font-size: 70px;
+	
+}
+
+form{
+	margin: 00px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----992px y más----*/
+@media (min-width: 992px) {
+
+header{
+	padding-top: 220px;
+}
+
+
+
+
+}
