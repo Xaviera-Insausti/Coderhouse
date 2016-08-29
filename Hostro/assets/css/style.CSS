@@ -1,0 +1,337 @@
+body{
+	font-size:16px;
+	font-family: "Raleway",sans-serif;
+}
+
+.barra_sup{
+	margin: 25px 0px;
+}
+
+.logo{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.nav_sup{
+	text-align: center;
+	font-weight: bold;	
+}
+
+.home a{
+	color: black;
+}
+
+.home {
+	padding: 20px;
+}
+
+.contact a{
+	color: #b3b3b3;
+	padding-top: 20px;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+header{
+	display: none;
+}
+
+
+.barra-search{
+	width: 100%;
+	height:	50px;
+	padding-left: 20px;
+}
+
+.boton-search{
+	width: 100%;
+	height:	50px;
+	font-size: 14px;
+	letter-spacing: 2px;
+	background-color: #00ace6;
+	color: white;
+	border: 0px;
+	font-weight: bold;
+}
+
+.buscador div{
+	padding: 0px;
+}
+
+
+.menu_circulos{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.circ_menu{
+	margin-bottom: 40px;
+}
+
+h3{
+	letter-spacing: 3px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.circ_menu p{
+	display: inline;
+}
+
+.pres_servicios{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+h1{
+	font-weight: bold;
+}
+
+.servicios p{
+	display: inline;
+	font-size: 14px;
+}
+
+h4{
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.servs1, .servs2{
+	margin-bottom: 40px;
+}
+
+.servs1 img, .servs2 img{
+	
+}
+
+.txt-serv1, .txt-serv2{
+	margin-left: 20px;
+}
+
+.iphone{
+	text-align: center;
+	margin: 90px 0px;
+}
+
+.pres_precios{
+	text-align: center;
+	margin: 25px 0px;
+	padding-top: 15px;
+	height: 160px;
+	background-image: url('../img/pricing-bg.jpg');
+	background-size: cover;
+}
+
+h5{
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.box_precios{
+	text-align: center;
+	margin: 50px 0px;
+}
+
+.precio{
+	font-size: 60px;
+	font-weight: bold;
+	margin: 30px 0px;
+}
+
+sup{
+	font-size: 20px;
+	vertical-align: 7px;
+	font-weight: bold;
+}
+
+.table{
+	width: 50%;
+	margin: auto;
+}
+
+.sm .nro{
+	color: #00ace6;
+}
+
+.nor .nro{
+	color: #cccc00;
+}
+
+.big .nro{
+	color: orange;
+}
+
+.best .nro{
+	color: red;
+}
+
+.selec_plan{
+	background-color: #00ace6;
+	padding: 10px 60px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	letter-spacing: 4px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+aside{
+	background-color: #0a1429; 
+	color: white; 
+	text-align: center;
+	height: 130px;
+	padding-top: 50px;
+	margin-top: 90px;
+	font-size: 26px;
+}
+
+strong {
+	color: #00ace6;
+}
+
+footer {
+	font-size: 14px;
+	background-color: #050a14; 
+	color: white;
+	text-align: center;	
+}
+
+.barra_inf {
+	height: 160px;
+	padding-top: 50px;
+}
+
+.nav_inf{
+	padding-top: 20px;
+}
+
+.home2, .contact2 {
+	color: white;
+}
+
+.home2 {
+	margin-right: 20px;
+}
+
+
+
+
+/*----768px y más----*/
+@media (min-width: 768px) {
+
+body{
+	font-size:14px;
+}
+
+.barra_sup{
+	margin: 20px;
+	height: 50px;
+}
+
+.logo{
+	padding-left: 20px;
+}
+
+.nav_sup{
+	margin-top:15px;
+}
+
+.home {
+	padding: 0px;
+}
+
+header{
+	display: block;
+	height: 400px;
+	background-image: url('../img/indexbanner-bg3.jpg');
+	background-size: cover;
+	background-position: 30%;
+}
+
+.header{
+	color: white;
+	padding-top: 100px;
+	padding-left: 40px;
+}
+
+h2{
+	font-size: 45px;
+	font-weight: bold; 
+}
+
+.buscador{
+	margin-top: -30px;
+}
+
+.circ_menu{
+	padding: 0px 30px;
+}
+
+
+
+
+
+
+/*----992px y más----*/
+@media (min-width: 992px) {
+
+.header{
+	padding-left: 150px;	
+}
+
+
+
+.servicios1 {
+	text-align: right;
+}
+
+.servicios1, .servicios2{
+	padding: 60px 10px;
+}
+
+.txt-serv1, .txt-serv2{
+	padding-right: 0px;
+}
+
+.txt-serv2{
+	padding-left: 30px;
+}
+
+.iphone{
+	margin-bottom: 0px;
+}
+
+.pres_precios{
+	background-image: url('../img/pricing-bg.jpg') ;
+	background-position: 55%;
+	text-align: center;
+	height: 500px;
+	padding-top: 200px;
+	margin-top: -140px;
+}
+
+.tabla_precios{
+	margin-top: -140px;
+}
+
+.box_precios{
+	padding: 0px 30px; 
+}
+	
+.selec_plan{
+	padding: 7px 30px; 
+	font-size: 10px;
+} 
+
+
+
+}
